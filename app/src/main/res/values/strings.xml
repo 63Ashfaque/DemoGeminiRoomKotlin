@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DemoGeminiRoomKotlin</string>
+    <string name="prompt">Prompt</string>
+</resources>

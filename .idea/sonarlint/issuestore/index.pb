@@ -1,0 +1,19 @@
+
+s
+Capp/src/main/java/com/ashfaque/demogeminiroomkotlin/MainActivity.kt,f\1\f1cf4db474be1c984a5949ca2193863b3d7a0233
+D
+app/build.gradle.kts,d\2\d2a4383452aad84a18429a5844d31330a012a9e6
+p
+@app/src/main/java/com/ashfaque/demogeminiroomkotlin/Constants.kt,b\9\b92521db59ea4f4dc91eb426420c1c189b7e6b49
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+s
+Capp/src/main/java/com/ashfaque/demogeminiroomkotlin/DummyRunFile.kt,7\b\7b3b1bab1f646a1a24c540e8a957f40f154f374a
+p
+@app/src/main/java/com/ashfaque/demogeminiroomkotlin/MyAdapter.kt,9\3\9394839410f42b5c050ccc7f896a5240b452d5c4
+p
+@app/src/main/java/com/ashfaque/demogeminiroomkotlin/ChatModel.kt,d\e\de49f00181286a62c577ad25383818c1ae295ee5
+p
+@app/src/main/java/com/ashfaque/demogeminiroomkotlin/TypeClass.kt,e\1\e1c28ed9b58b701cd25e1c3a2f1ac01bdfddc8dc
+l
+<app/src/main/java/com/ashfaque/demogeminiroomkotlin/Utils.kt,a\a\aa54158955c9d3e1df28415dfb40b5b5b77005a2
