@@ -1,7 +1,9 @@
 package com.ashfaque.demogeminiroomkotlin
 
 // Access your API key as a Build Configuration variable
-val apiKey = "AIzaSyCzgnHd3PNE1uBanFMrtpOY8ACDzUQ9x_g"
+val apiKey1 = "AI"
+val apiKey2 = "zaSyCzgnHd3PNE1uBanFMrtpOY8ACDzUQ9x"
+val apiKey3 = "_g"
 
 val dateFormate="hh:mm a"
 

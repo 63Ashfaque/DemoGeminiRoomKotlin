@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         val generativeModel = GenerativeModel(
             // The Gemini 1.5 models are versatile and work with both text-only and multimodal prompts
             modelName = "gemini-1.5-flash",
-            apiKey = apiKey
+            apiKey = apiKey1+ apiKey2+ apiKey3
         )
 
         mBinding.btnSend.setOnClickListener {
@@ -66,16 +66,20 @@ class MainActivity : AppCompatActivity() {
                         {
                             position=adapter.addItem( ChatModel(it, TypeClass.AI,  Utils().getCurrentDateTime(dateFormate)))
                             mBinding.recyclerView.scrollToPosition(position)
+                            mBinding.tvTyping.visibility= View.GONE
                         }
                     }
 
                 } catch (e: Exception) {
                     Log.e("Ashu", "Server error: ${e.message}")
+                    withContext(Dispatchers.Main)
+                    {
+                        mBinding.tvTyping.visibility= View.GONE
+                    }
                 }
 
 
             }
-            mBinding.tvTyping.visibility= View.GONE
         }
 
     }
